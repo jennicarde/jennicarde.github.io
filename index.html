@@ -1,0 +1,173 @@
+<html><head>
+    <meta charset="UTF-8">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i" rel="stylesheet">  <!-- Custom Stylesheet -->
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- picture fill for <picture> element -->
+    <script src="js/picturefill.js" async></script>
+</head>
+
+<body class="container">
+
+    <div class="row header">
+        <div class="col-xs-12 title-topbar">
+          <div class="col-md-4 col-xs-3 top-logo"><img src="images-src/tulip-simple.svg" class="image-logo img-responsive"></div>
+          <div class="col-md-8 col-xs-9 top-title text-right text-uppercase">
+              <h1 class="title-super display-2 text-thin italic">Jenni Carde</h1>
+              <h3 class="title-sub">Front-End Developer</h3>
+          </div>
+        </div>
+    </div>
+
+    <div class="row hero">
+      <div class="hero-bg">
+      <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source srcset="images/hero-large_x2.jpg" media="(min-width: 820px)" />
+        <source srcset="images/hero-large.jpg" media="(min-width: 640px)" />
+        <source srcset="images/hero-320.jpg" />
+        <!--[if IE 9]></video><![endif]-->
+        <img class="hero-img"src="images-src/hero.jpg" alt="Notebook, pen, computer on a desk" />
+      </picture>
+        <div class="col-md-12 hero-text text-center text-uppercase">
+            <h1 class="hero-super italic text-color-pop">Hello</h1>
+            <h4 class="hero-sub text-bold">I create for the web.</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row featured-title">
+        <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+        </div>
+    </div>
+
+    <div class="row featured-projects">
+        <div class="col-md-4 project">
+            <div class="project-img-container">
+              <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                <source srcset="images/p-mockuptoarticle-large_x2.png" media="(min-width: 820px)" />
+                <source srcset="images/p-mockuptoarticle-large.png" media="(min-width: 640px)" />
+                <source srcset="images/p-mockuptoarticle-320.png" />
+                <!--[if IE 9]></video><![endif]-->
+                <img class="img-responsive project-img" src="images-src/p-mockuptoarticle.png" alt="placeholder" data-toggle="modal" data-target="#project1">
+              </picture>
+            </div>
+            <p class="project-text">The aim of this project was to practice HTML syntax by converting a mockup of a blog article into a real website.</p>
+            <p class="project-link"><button type="button" class="btn btn-primary"><a href="http://github.com/">View project on GitHub</a></button></p>
+        </div>
+        <div class="col-md-4 col2 project">
+            <div class="project-img-container">
+              <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                <source srcset="images/p-animalcard-large_x2.png" media="(min-width: 820px)" />
+                <source srcset="images/p-animalcard-large.png" media="(min-width: 640px)" />
+                <source srcset="images/p-animalcard-320.png" />
+                <!--[if IE 9]></video><![endif]-->
+                <img class="img-responsive project-img" src="images-src/p-animalcard.png" alt="placeholder" data-toggle="modal" data-target="#project2">
+              </picture>
+            </div>
+            <p class="project-text">The aim of this project was to practice CCS syntax by converting a design prototype into a functional webpage.</p>
+            <p class="project-link"><button type="button" class="btn btn-primary"><a href="http://github.com/">View project on GitHub</a></button></p>
+        </div>
+        <div class="col-md-4 project">
+            <div class="project-img-container">
+              <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                <source srcset="images/p-portfolio-large_x2.png" media="(min-width: 820px)" />
+                <source srcset="images/p-portfolio-large.png" media="(min-width: 640px)" />
+                <source srcset="images/p-portfolio-320.png" />
+                <!--[if IE 9]></video><![endif]-->
+                <img class="img-responsive project-img" src="images-src/p-portfolio.png" alt="placeholder" data-toggle="modal" data-target="#project3">
+              </picture>
+            </div>
+            <p class="project-text">The primary aim of this project was to develop a responsive website that will display images, descriptions and links to each of the projects completed in the nanodegree.</p>
+            <p class="project-link"><button type="button" class="btn btn-primary"><a href="http://github.com/">View project on GitHub</a></button></p>
+        </div>
+    </div>
+
+    <footer>
+      <div class="copyright pull-left">
+          <p>© Copyright 2016, Jenni Carde, created for the Udacity Front End Developer Nanodegree</p>
+      </div>
+      <div class="social-media pull-right">
+          <a href="https://github.com/jennicarde" class="sm-link"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/jenni_carde" class="sm-link"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+          <a href="https://plus.google.com/u/0/106759370563444463290" class="sm-link"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/jennicarde" class="sm-link"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      </div>
+    </footer>
+
+    <!-- Modal for Projects -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Mock Up to Article</h4>
+                </div>
+                <div class="modal-body">
+                  <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source srcset="images/mockuptoarticle-large_x2.png" media="(min-width: 820px)" />
+                    <source srcset="images/mockuptoarticle-large.png" media="(min-width: 640px)" />
+                    <source srcset="images/mockuptoarticle-320.png" />
+                    <!--[if IE 9]></video><![endif]-->
+                    <img class="img-responsive" src="images-src/mockuptoarticle.png">
+                  </picture>
+                    This was my first project in this class. I mostly learned about some best practices that I hadn't known about before.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Animal Trading Card</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images-src/animal-card.png">
+                    This was my second project in the nanodegree. I learned some CSS best practices.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Portfolio Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images-src/portfolio.png">
+                    The was the third project and so far the "heaviest" because it is a start/finish project using what I've learned about file compression and website responsiveness.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body></html>
